@@ -1,0 +1,12 @@
+body {
+    background-color: #111;
+    max-width: 1200px;
+    align-content: center;
+}
+
+span, i {
+    color: #fff;
+    margin: 0 15px;
+}
+
+
