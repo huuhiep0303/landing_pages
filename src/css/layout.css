@@ -70,6 +70,7 @@ body {
     text-align: left;
     background-color: #fff;
 }
+
 [tabindex="-1"]:focus {
     outline: 0 !important;
 }
@@ -126,7 +127,7 @@ b, strong {
 }
 
 small {
-    font-size: 80%;
+    font-size: 100%;
 }
 sub, sup {
     position: relative;
@@ -454,7 +455,6 @@ pre code {
 .row {
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     margin-right: -15px;
     margin-left: -15px;
@@ -6225,7 +6225,7 @@ button.bg-dark:hover {
 }
 
 .align-items-center {
-    -ms-flex-align: center !important;
+    /* -ms-flex-align: center !important; */
     align-items: center !important;
 }
 .align-items-baseline {
