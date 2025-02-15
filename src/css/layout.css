@@ -6538,7 +6538,7 @@ button.bg-dark:hover {
     }
 
     .justify-content-md-center {
-        -ms-flex-pack: center !important;
+        /* -ms-flex-pack: center !important; */
         justify-content: center !important;
     }
 
